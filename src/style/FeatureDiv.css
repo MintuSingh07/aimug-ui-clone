@@ -1,0 +1,28 @@
+#featureDiv{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    margin: 2rem 0;
+}
+#featureDiv h1{
+    font-weight: 500;
+}
+#featureDiv h2{
+    color: #A1AAC9;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.featureDetails{
+    width: 50%;
+}
+#featureImgHolder{
+    height: 80vh;
+    width: 46.5vw;
+    background-color: #1D1D41;
+    border-radius: 1rem;
+}
+#featureImgHolder img{
+    border-radius: 1rem;
+    scale: .9;
+}

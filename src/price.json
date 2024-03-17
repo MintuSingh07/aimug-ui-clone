@@ -1,0 +1,41 @@
+[
+    {
+        "type": "Free",
+        "price": "$00",
+        "benefits": [
+            "1000 words/month",
+            "Generate 10+ AI images",
+            "15+ Text To Speech",
+            "20+ AI Code Generator",
+            "5+ AI-powered Chat",
+            "10+ Speech to Text",
+            "Basic Support"
+        ]
+    },
+    {
+        "type": "Starter",
+        "price": "$29",
+        "benefits": [
+            "10,000 words",
+            "Generate 100+ AI images",
+            "50+ Text To Speech",
+            "50+ AI Code Generator",
+            "5+ AI-powered Chat",
+            "Unlimited Speech to Text",
+            "24/7 Support"
+        ]
+    },
+    {
+        "type": "Enterprise",
+        "price": "$125",
+        "benefits": [
+            "30,000 words",
+            "Generate 500+ AI images",
+            "100+ Text To Speech",
+            "100+ AI Code Generator",
+            "Unlimited AI-powered Chat",
+            "Unlimited Speech to Text",
+            "24/7 Support"
+        ]
+    }
+]

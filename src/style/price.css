@@ -1,0 +1,68 @@
+#priceContainer{
+    min-height: 150vh;
+    width: 100%;
+    background-color: #111022;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#priceContainer h1{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin: 5rem 0 2rem 0;
+}
+
+.float-bob-x {
+    -webkit-animation-name: float-bob-x;
+    animation-name: float-bob-x;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+.copywriting-tool-shape-1 {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    border-radius: 50%;
+    opacity: 0.6;
+    background: linear-gradient(93deg, #430054 7.07%, #FE577F 97.81%);
+    filter: blur(114px);
+    width: 371px;
+    height: 371px;
+    z-index: 1;
+}
+.copywriting-tool-shape-2 {
+    position: absolute;
+    top: 55vh;
+    left: 80vh;
+    border-radius: 50%;
+    opacity: 0.95;
+    background: linear-gradient(208deg, #9F9A1A 19.19%, #0096A0 70.68%);
+    filter: blur(90px);
+    width: 320px;
+    height: 320px;
+    z-index: 1;
+}
+.copywriting-tool-shape-3 {
+    position: absolute;
+    top: 40vh;
+    right: -95px;
+    border-radius: 50%;
+    opacity: 0.6;
+    background: linear-gradient(180deg, #6243FF 0%, #FF2828 100%);
+    filter: blur(90px);
+    width: 423px;
+    height: 423px;
+    z-index: 1;
+}
+
+#priceCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,44 @@
+#featureContainer{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #131023;
+}
+#FeatureDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+#featureContainer h1{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 80%;
+    font-weight: 500;
+}
+#featureContainer p{
+    text-align: center;
+    color: #F7672A;
+    margin: 1rem;
+}
+#getStarted{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #7B76FE;
+    border-radius: .5rem;
+    width: 30%;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+#getStarted button{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+#getStarted button span{
+    color: white;
+    font-weight: 500;
+}

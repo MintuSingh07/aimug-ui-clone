@@ -1,0 +1,32 @@
+#caseContainer {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #15152C;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#caseDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#caseDesc h1 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 80%;
+    font-weight: 500;
+}
+
+#caseDesc p {
+    text-align: center;
+    color: #F7672A;
+    margin: 1rem;
+}

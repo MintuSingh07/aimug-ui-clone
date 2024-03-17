@@ -1,0 +1,23 @@
+[
+    {
+        "fNo": "Feature 1",
+        "title": "Write Better Content Faster",
+        "desc": "Mastering the Art of AI Content Writing: Unleashing the Power of Automated Creativity. Make Your Life Easier with Effortless Content Creation.",
+        "isRight": true,
+        "src": "https://marveltheme.com/tf/html/aimug/images/resource/core-feature-img-1.jpg"
+    },
+    {
+        "fNo": "Feature 2",
+        "title": "Select Templates from Template Library",
+        "desc": "Mastering the Art of AI Content Writing: Unleashing the Power of Automated Creativity. Explore 60+ customizable templates to meet all of your writing demands with AIMug.",
+        "isRight": false,
+        "src": "https://marveltheme.com/tf/html/aimug/images/resource/core-feature-img-2.jpg"
+    },
+    {
+        "fNo": "Feature 3",
+        "title": "Write Better Content Faster",
+        "desc": "Mastering the Art of AI Content Writing: Unleashing the Power of Automated Creativity. Make Your Life Easier with Effortless Content Creation.",
+        "isRight": true,
+        "src": "https://marveltheme.com/tf/html/aimug/images/resource/core-feature-img-3.jpg"
+    }
+]

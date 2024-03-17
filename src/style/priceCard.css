@@ -1,0 +1,72 @@
+#priceCard {
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    width: 30vw;
+    border: 1px white;
+    background-color: #0F0F24;
+    border: 1px solid #414274;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+#priceCard h3{
+    color: #426BFF;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+#priceCard h2{
+    color: #ffffff;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+#priceCard p{
+    margin: 1rem 0 2rem 0;
+    color: grey;
+}
+
+#start {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    background-color: transparent;
+    border: 1px solid #414274;
+    border-radius: .5rem;
+    width: 50%;
+}
+
+#start button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+#start button span {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-weight: 600;
+}
+
+#start #btn-hover {
+    position: absolute;
+    background-color: #7978F6;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    scale: 0;
+    transition: all .5s ease-in-out;
+}
+
+#start:hover #btn-hover {
+    scale: 1;
+}
+#serviceBenifits li{
+    color: white;
+    list-style: circle;
+    margin: .7rem 0;
+}

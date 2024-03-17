@@ -1,0 +1,24 @@
+#accCard{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.accordion__item p{
+    color: #8087A4;
+}
+.accordion__item{
+    margin: .5rem 0;
+    border-radius: 0.5rem;
+    border: 1.5px solid #3C3C77;
+}
+.accordion__panel, .accordion__button{
+    background-color: #15152C;
+    color: white;
+}
+.accordion{
+    width: 70%;
+}
+.accordion__button:hover{
+    background-color: #15152C;
+}

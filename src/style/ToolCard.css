@@ -1,0 +1,42 @@
+#toolContainer{
+    height: 70vh;
+    width: 30vw;
+    background-color: transparent;
+    border-radius: 1rem;
+    border: 1px solid #414274;
+    display: flex;
+    flex-direction: column;
+}
+#toolContainer img{
+    padding: 1rem;
+    scale: 1;
+}
+.desc-div{
+    height: 45%;
+    width: 100%;
+    background-color: #15152c94;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.desc-div h1 a{
+    text-decoration: none;
+    color: white;   
+    transition: all .3s linear;
+
+}
+.desc-div h1{
+    font-size: 1.6rem;
+    margin-bottom: 2vh;
+    font-weight: 600;
+}
+.desc-div p{
+    color: #9E9BBE;
+    width: 80%;
+    font-weight: 400;
+}
+.desc-div h1 a:hover{
+    color: #F7672A;
+}

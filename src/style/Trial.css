@@ -1,0 +1,70 @@
+#trialContainer {
+    height: 80vh;
+    width: 100%;
+    background-color: #111022;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#trialDiv {
+    overflow: hidden;
+    position: relative;
+    height: 70vh;
+    width: 90%;
+    border: 1px solid #ACDA49;
+    border-radius: 1rem;
+}
+#trialDiv img{
+    mix-blend-mode: multiply;
+    opacity: .2;
+}
+.float-bob-x {
+    -webkit-animation-name: float-bob-x;
+    animation-name: float-bob-x;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.copywriting-tool-shape-1 {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    border-radius: 50%;
+    opacity: 0.3;
+    background: linear-gradient(93deg, #430054 7.07%, #FE577F 97.81%);
+    filter: blur(114px);
+    width: 371px;
+    height: 371px;
+    z-index: 1;
+}
+
+.copywriting-tool-shape-2 {
+    position: absolute;
+    top: 55vh;
+    left: 80vh;
+    border-radius: 50%;
+    opacity: 0.3;
+    background: linear-gradient(208deg, #9F9A1A 19.19%, #0096A0 70.68%);
+    filter: blur(90px);
+    width: 320px;
+    height: 320px;
+    z-index: 1;
+}
+
+.copywriting-tool-shape-3 {
+    position: absolute;
+    top: 40vh;
+    right: -95px;
+    border-radius: 50%;
+    opacity: 0.3;
+    background: linear-gradient(180deg, #6243FF 0%, #FF2828 100%);
+    filter: blur(90px);
+    width: 423px;
+    height: 423px;
+    z-index: 1;
+}
