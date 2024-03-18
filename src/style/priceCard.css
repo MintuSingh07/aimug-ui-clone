@@ -8,6 +8,10 @@
     border: 1px solid #414274;
     border-radius: 1rem;
     padding: 1.5rem;
+    transition: .5s linear;
+}
+#priceCard:hover{
+    border: 1px solid yellow;
 }
 #priceCard h3{
     color: #426BFF;

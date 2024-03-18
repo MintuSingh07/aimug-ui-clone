@@ -1,5 +1,5 @@
 #ToolContainer{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     background-color: #111022;
     display: flex;
@@ -7,10 +7,12 @@
     flex-direction: column;
 }
 #ToolContainer #title{
+    overflow: hidden;
     color: white;
     font-size: 2.5rem;
 }
 #cardSection{
+    height: 100%;
     margin-top: 3rem;
     display: flex;
     align-items: center;

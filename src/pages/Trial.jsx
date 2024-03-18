@@ -5,7 +5,11 @@ const Trial = () => {
     return (
         <div id='trialContainer'>
             <div id="trialDiv">
-                <img src="https://static.vecteezy.com/system/resources/previews/019/578/434/non_2x/black-and-white-abstract-wave-line-stripe-background-op-art-optical-illusion-wavy-striped-illustration-vector.jpg" alt="" />
+                <div id="trialDetails">
+                    <p>14 Day’s Free Trail</p>
+                    <h1>Be part of the future of AIMug Let’s Create Something</h1>
+                    <h3>Choose a topic & create something better than before, get started from today. No Credit Card Required Get Started Free </h3>
+                </div>
                 <div class="copywriting-tool-shape-1 float-bob-x"></div>
                 <div class="copywriting-tool-shape-2 float-bob-x"></div>
                 <div class="copywriting-tool-shape-3 float-bob-x"></div>

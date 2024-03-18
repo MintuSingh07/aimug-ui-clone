@@ -8,16 +8,42 @@
 }
 
 #trialDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     position: relative;
     height: 70vh;
     width: 90%;
     border: 1px solid #ACDA49;
     border-radius: 1rem;
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/019/578/434/non_2x/black-and-white-abstract-wave-line-stripe-background-op-art-optical-illusion-wavy-striped-illustration-vector.jpg");
+    opacity: .2;
+    mix-blend-mode: multiply; */
 }
 #trialDiv img{
     mix-blend-mode: multiply;
     opacity: .2;
+}
+#trialDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+    gap: 1rem;
+}
+#trialDetails p{
+    color: #FC6D1E;
+}
+#trialDetails h1{
+    color: white;
+}
+#trialDetails h3{
+    color: grey;
+    font-size: 1rem;
+    font-weight: 400;
 }
 .float-bob-x {
     -webkit-animation-name: float-bob-x;
